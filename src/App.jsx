@@ -33,12 +33,24 @@ const SKILLS = [
 
 const EXPERIENCE = [
   {
-    when: 'Jun 2022 — Present',
+    when: 'Oct 2026 — Present',
     now: true,
-    role: 'Principal Application Engineer IC4',
+    role: 'Principal Application Software Engineer IC4',
+    where: 'Oracle Financial Services (OFSS) · Pune — OBCLPM · Promoted from IC3',
+    summary:
+      'Promoted to IC4 to own architecture and delivery on OBCLPM corporate lending — Java, Spring Boot, microservices, REST APIs and OJET across loan origination and facility lifecycle. Leading a 4-developer squad inside a 25-member scrum team.',
+    points: [
+      'Own module architecture and design reviews for new OBCLPM capabilities aligned with Oracle banking product standards.',
+      'Drive AI-agent-assisted delivery (Codex, prompt-engineered agents) for faster, enterprise-grade releases.',
+      'Unblock UI and backend tracks and keep sprint delivery on schedule.',
+    ],
+  },
+  {
+    when: 'Jun 2022 — Oct 2026',
+    role: 'Senior Application Software Engineer IC3',
     where: 'Oracle Financial Services (OFSS) · Pune — OBCLPM',
     summary:
-      'Principal Application Engineer (IC4 since Oct 2026) on OBCLPM corporate lending — Java, Spring Boot, microservices, REST APIs and OJET across loan origination and facility lifecycle. Lead 4 developers inside a 25-member scrum team.',
+      'End-to-end features for OBCLPM corporate lending — Java, Spring Boot, microservices, REST APIs and OJET across loan origination and facility lifecycle.',
     points: [
       'Pre-Shipment Loan Module end-to-end — 5 modules, 4–5 stages per flow, 100+ REST APIs, 20+ UI screens for loans against export LCs & purchase orders; built with AI agents, demoed to leadership in recurring 2-hour sessions over 1.5 months.',
       'Gen AI Auto Sightings of Funds — two AI agents (Payment Extraction + Fund Matching) that parse contract / customer / value-date from DMS uploads via prompts and auto-match SWIFT prepayments by amount, contract, customer & currency; replaced NLP pipelines that needed retraining per format.',
