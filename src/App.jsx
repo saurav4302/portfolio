@@ -35,10 +35,10 @@ const EXPERIENCE = [
   {
     when: 'Jun 2022 — Present',
     now: true,
-    role: 'Senior Application Software Engineer IC3',
+    role: 'Principal Application Engineer IC4',
     where: 'Oracle Financial Services (OFSS) · Pune — OBCLPM',
     summary:
-      'End-to-end features for OBCLPM (corporate lending) with Java, Spring Boot, microservices, REST APIs and OJET across loan origination and facility lifecycle. Lead 4 developers inside a 25-member scrum team.',
+      'Principal Application Engineer (IC4 since Oct 2026) on OBCLPM corporate lending — Java, Spring Boot, microservices, REST APIs and OJET across loan origination and facility lifecycle. Lead 4 developers inside a 25-member scrum team.',
     points: [
       'Pre-Shipment Loan Module end-to-end — 5 modules, 4–5 stages per flow, 100+ REST APIs, 20+ UI screens for loans against export LCs & purchase orders; built with AI agents, demoed to leadership in recurring 2-hour sessions over 1.5 months.',
       'Gen AI Auto Sightings of Funds — two AI agents (Payment Extraction + Fund Matching) that parse contract / customer / value-date from DMS uploads via prompts and auto-match SWIFT prepayments by amount, contract, customer & currency; replaced NLP pipelines that needed retraining per format.',
@@ -269,7 +269,7 @@ export default function App() {
         <div className="wrap nav-inner">
           <a className="brand" href="#top" aria-label="Saurav Upadhyay home">
             <span className="brand-mark">S</span>
-            <span className="brand-name">Saurav Upadhyay<small>SENIOR APP ENGINEER · ORACLE</small></span>
+            <span className="brand-name">Saurav Upadhyay<small>PRINCIPAL APP ENGINEER · ORACLE</small></span>
           </a>
           <div className={`nav-links ${menu ? 'open' : ''}`}>
             {['About', 'Skills', 'Experience', 'Work', 'Contact'].map((l) => (
@@ -288,7 +288,7 @@ export default function App() {
       <header className="hero" id="top">
         <div className="wrap hero-grid">
           <div>
-            <span className="status-pill"><span className="dot" />Senior App Engineer IC3 @ Oracle · Pune</span>
+            <span className="status-pill"><span className="dot" />Principal Application Engineer IC4 @ Oracle · Pune</span>
             <h1>
               Banking systems<br />
               <span className="thin">with</span> AI agents<br />
@@ -296,8 +296,8 @@ export default function App() {
             </h1>
             <p className="lede">
               I&apos;m <strong>Saurav Upadhyay</strong> — 10+ years building scalable microservices and
-              banking systems with <strong>Java, Spring Boot, REST &amp; OJET</strong>. Currently at Oracle
-              on <strong>OBCLPM corporate lending</strong>: Pre-Shipment Loans (100+ APIs), Gen-AI fund sighting
+              banking systems with <strong>Java, Spring Boot, REST &amp; OJET</strong>. Principal Application Engineer (IC4)
+              at Oracle on <strong>OBCLPM corporate lending</strong>: Pre-Shipment Loans (100+ APIs), Gen-AI fund sighting
               with two production agents, Fusion integrations and cloud rollout.
             </p>
             <div className="hero-cta">
